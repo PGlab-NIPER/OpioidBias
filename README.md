@@ -33,7 +33,9 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    python main.py --smiles "CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O"
    ```
    Example Output:
+   
    Predicted Class: G-protein biased
+   
    Probability of being G-protein biased: 0.7634
 
    ii)  Predict from a CSV File
