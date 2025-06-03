@@ -35,7 +35,6 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    Example Output:
    
    Predicted Class: G-protein biased
-   
    Probability of being G-protein biased: 0.7634
 
    ii)  Predict from a CSV File
@@ -56,8 +55,8 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    └── README.md
    ```
 5.Citation:
-  If you use this tool in your work, please cite:
 
+  If you use this tool in your work, please cite:
   "OpioidBias: A Machine Learning Framework for Predicting Biased Agonism of Opioid Ligands"
 
 Contact:
