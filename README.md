@@ -40,6 +40,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    python predict.py --csv input.csv --output predictions.csv
 
 5. Project Structure:
+   ```
    OpioidBias/
    │
    ├── predict.py                 # Main script
@@ -50,13 +51,13 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    │   └── selected_features.pkl  # Selected features used by the model
    ├── environment.yml            # Conda environment configuration
    └── README.md
-
-5.Citation:
+   ```
+6.Citation:
   If you use this tool in your work, please cite:
 
   "OpioidBias: A Machine Learning Framework for Predicting Biased Agonism of Opioid Ligands"
 
-Contact
+Contact:
 For questions or feedback, please contact:
 Rajkumar Raja
 rajkumarrpi22@gmail.com
