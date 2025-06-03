@@ -27,6 +27,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    
 
 3. Usage:
+   
    i) Predict a Single SMILES
    ```bash
    python main.py --smiles "CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O"
@@ -39,7 +40,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    ```bash
    python main.py --csv input.csv --output predictions.csv
 
-4. Project Structure:
+5. Project Structure:
    ```
    OpioidBias/
    │
