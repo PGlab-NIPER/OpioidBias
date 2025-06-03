@@ -37,13 +37,13 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
 
    ii)  Predict from a CSV File
    ```bash
-   python predict.py --csv input.csv --output predictions.csv
+   python main.py --csv input.csv --output predictions.csv
 
 4. Project Structure:
    ```
    OpioidBias/
    │
-   ├── predict.py                 # Main script
+   ├── main.py                 # Main script
    ├── src/
    │   └── featurizer.py          # Feature extraction code
    ├── model/
