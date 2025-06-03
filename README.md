@@ -26,7 +26,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    conda activate opioidbias
    
 
-4. Usage:
+3. Usage:
    i) Predict a Single SMILES
    ```bash
    python main.py --smiles "CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O"
@@ -39,7 +39,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    ```bash
    python predict.py --csv input.csv --output predictions.csv
 
-5. Project Structure:
+4. Project Structure:
    ```
    OpioidBias/
    │
@@ -52,12 +52,12 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    ├── environment.yml            # Conda environment configuration
    └── README.md
    ```
-6.Citation:
+5.Citation:
   If you use this tool in your work, please cite:
 
   "OpioidBias: A Machine Learning Framework for Predicting Biased Agonism of Opioid Ligands"
 
 Contact:
 For questions or feedback, please contact:
-Rajkumar Raja
+Rajkumar Raja,
 rajkumarrpi22@gmail.com
