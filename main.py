@@ -5,7 +5,8 @@ import pandas as pd
 from src.featurizer import featurize
 
 # Fixed model directory
-MODEL_DIR = "/mnt/6dc794ab-96c3-4f0d-97d9-1fa54dbe0b70/The_Prince/ML_Models/OpioidBias/model"
+SCRIPT_DIR = os.path.dirname(__file__)
+MODEL_DIR = os.path.join(SCRIPT_DIR, "model")
 MODEL_PATH = os.path.join(MODEL_DIR, "RandomForest.pkl")
 FEATURES_PATH = os.path.join(MODEL_DIR, "selected_features.pkl")
 
