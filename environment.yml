@@ -1,0 +1,14 @@
+name: opioidbias
+channels:
+  - conda-forge
+  - rdkit
+  - defaults
+dependencies:
+  - python=3.9
+  - rdkit
+  - scikit-learn
+  - pandas
+  - numpy
+  - pip
+  - pip:
+    - matplotlib
