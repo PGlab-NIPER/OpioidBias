@@ -35,6 +35,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    Example Output:
    
    Predicted Class: G-protein biased
+   
    Probability of being G-protein biased: 0.7634
 
    ii)  Predict from a CSV File
