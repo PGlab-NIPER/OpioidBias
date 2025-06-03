@@ -27,23 +27,26 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    
 
 3. Usage:
+   
    i) Predict a Single SMILES
    ```bash
    python main.py --smiles "CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O"
    ```
    Example Output:
+   
    Predicted Class: G-protein biased
+   
    Probability of being G-protein biased: 0.7634
 
    ii)  Predict from a CSV File
    ```bash
-   python predict.py --csv input.csv --output predictions.csv
+   python main.py --csv input.csv --output predictions.csv
 
-4. Project Structure:
+5. Project Structure:
    ```
    OpioidBias/
    │
-   ├── predict.py                 # Main script
+   ├── main.py                 # Main script
    ├── src/
    │   └── featurizer.py          # Feature extraction code
    ├── model/
@@ -53,8 +56,8 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    └── README.md
    ```
 5.Citation:
-  If you use this tool in your work, please cite:
 
+  If you use this tool in your work, please cite:
   "OpioidBias: A Machine Learning Framework for Predicting Biased Agonism of Opioid Ligands"
 
 Contact:
