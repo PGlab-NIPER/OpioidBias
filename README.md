@@ -9,7 +9,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
 
 - **Model type**: Random Forest
 - **Input**: RDKit-based descriptors, Mordred descriptors and morgan fingerprints
-- **Threshold**: Molecules with probability ≥ 0.60 are classified as **G-protein biased**; otherwise, as **β-arrestin biased**
+- **Context**: Molecules are classified as **G-protein biased**; otherwise, as **β-arrestin biased**
 
 ---
 
