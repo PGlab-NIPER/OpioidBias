@@ -33,10 +33,11 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    python predict_biasness.py --smiles "CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O"
    ```
    Example Output:
-   
-    Ligand   SMILES                                                              Predicted_Class   Probability_G-Protein
-    Ligand_1 CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O     G-Protein         0.7   
-   
+
+   ```bash
+    Ligand    | SMILES                                                           |  Predicted_Class  | Probability_G-Protein
+    Ligand_1  | CCN(CC)CCCC(C)Nc1ccc2c(c1)C(=O)N(C3CCC(CC3)NC(=O)OC(C)(C)C)C2=O  |  G-Protein        | 0.7   
+    ```
 
    ii)  Predict from a CSV File
    ```bash
@@ -46,13 +47,16 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    ```
    OpioidBias/
    │
-   ├── main.py                 # Main script
+   ├── predict_biasness.py                 # Main script
    ├── src/
    │   └── featurizer.py          # Feature extraction code
    ├── model/
    │   ├── RandomForest.pkl       # Trained classifier
-   │   └── selected_features.pkl  # Selected features used by the model
-   ├── environment.yml            # Conda environment configuration
+   │   └── minmax_scaler.pkl      # scaler fitted with training set
+   ├── features/
+   │   ├── features_for_scaling.pkl  #feature required before scaling
+   │   └── selected_features.csv     # Selected features by RFE, used by the model
+   ├── environment.yml   # Conda environment configuration
    └── README.md
    ```
 5.Citation:
