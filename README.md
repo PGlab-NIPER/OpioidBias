@@ -19,12 +19,13 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    ```bash
    git clone https://github.com/Rajkumar-Raja/OpioidBias.git
    cd OpioidBias
+    ```
 
 2. Create the conda environment:
    ```bash
    conda env create -f environment.yml
    conda activate opioidbias-env
-   
+    ```
 
 3. Usage:
    
@@ -42,6 +43,7 @@ It supports both **single-molecule** prediction and **batch prediction via CSV**
    ii)  Predict from a CSV File
    ```bash
    python predict_biasness.py --csv input.csv --output predictions.csv
+    ```
 
 5. Project Structure:
    ```
